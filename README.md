@@ -54,6 +54,8 @@ Each model (out of 7) has gone through following stages are:
 4. Train on 2023 species with BCEWithLogitsLoss using step 3 weights.
 5. Finetune (frozen backbone and certain layers) on 2023 species with BCEWithLogitsLoss using step 4 weights.
 
+<b>I completed training over only 4 models i.e., 2 from SED and 2 from CNN. Final result is an ensemble of only 4 models.</b>
+
 During training on 264 species, we have popped out those layers from model state_dict (which have size issues with 864 species).
 
 Model converges faster with CrossEntropyLoss than BCEWithLogitsLoss, but BCEWithLogitsLoss gives better score. So, first get out of local minima then slowly reach the global minima.
