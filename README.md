@@ -66,12 +66,12 @@ Sklearn average precision score is computed as follows:
 When a computer records digital audio, it measures the sound pressure level multiple times per second. These measurements are often called samples. Being digital, the samples are quantized -- that is, they can only take on certain discrete values as compared to the continuous range of possible values in the actual analog sound wave. 
 
 The rate at which we sample the data can vary, but is most commonly 44.1kHz, or 44,100 samples per second. 
-![audio_in_time](https://github.com/bishnarender/birdclef-2023-identify-bird-calls-in-soundscapes/assets/49610834/e2e19d66-348f-48e0-b46e-d4480c45555a)
+![audio_in_time](https://github.com/bishnarender/birdclef-2023-identify-bird-calls-in-soundscapes/assets/49610834/e2e19d66-348f-48e0-b46e-d4480c45555a).
 [Image Reference](https://elvers.us/perception/soundWave/)
 
 
 The FFT (fast fourier transform) is a widely used algorithm for transforming time-domain audio signals into the frequency domain.
-![fft](https://github.com/bishnarender/birdclef-2023-identify-bird-calls-in-soundscapes/assets/49610834/e9e1391b-0288-4d44-a2da-11ba3a8ee038)
+![fft](https://github.com/bishnarender/birdclef-2023-identify-bird-calls-in-soundscapes/assets/49610834/e9e1391b-0288-4d44-a2da-11ba3a8ee038).
 [Image Reference](https://mriquestions.com/fourier-transform-ft.html)
 
 #### What is MelSpectrogram?
@@ -83,8 +83,8 @@ In a nutshell, a signal goes through a pre-emphasis filter; then gets sliced int
 ![spectrogram](https://github.com/bishnarender/birdclef-2023-identify-bird-calls-in-soundscapes/assets/49610834/b0bdc37f-e8d0-4f01-95eb-b92189e91d1c)
 [Image Reference](https://medium.com/analytics-vidhya/understanding-the-mel-spectrogram-fca2afa2ce53)
 
-[Link to Article 1](https://haythamfayek.com/2016/04/21/speech-processing-for-machine-learning.html)
-[Link to Article 2](https://medium.com/analytics-vidhya/understanding-the-mel-spectrogram-fca2afa2ce53)
+[Link to Article 1](https://haythamfayek.com/2016/04/21/speech-processing-for-machine-learning.html).
+[Link to Article 2](https://medium.com/analytics-vidhya/understanding-the-mel-spectrogram-fca2afa2ce53).
 
 #### How sklearn computes label_ranking_average_precision_score?
 -----
