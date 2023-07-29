@@ -90,7 +90,7 @@ In a nutshell, a signal goes through a pre-emphasis filter; then gets sliced int
 [Link to Article 1](https://haythamfayek.com/2016/04/21/speech-processing-for-machine-learning.html).<br>
 [Link to Article 2](https://medium.com/analytics-vidhya/understanding-the-mel-spectrogram-fca2afa2ce53).
 
-#### How sklearn computes label_ranking_average_precision_score?
+#### How sklearn computes "label_ranking_average_precision_score" ?
 -----
 Label ranking average precision (LRAP) averages over the samples the answer to the following question: for each ground truth label, what fraction of higher-ranked labels were true labels? This performance measure will be higher if you are able to give better rank to the labels associated with each sample. The obtained score is always strictly greater than 0, and the best value is 1.
 
