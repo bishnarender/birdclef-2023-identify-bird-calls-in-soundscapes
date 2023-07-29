@@ -30,6 +30,7 @@ Backbones which have been used in SED (sound event detection) models are:<br>
 1. tf_efficientnetv2_s_in21k
 2. seresnext26t_32x4d
 3. tf_efficientnet_b3_ns
+
 All of them are trained on 10sec clip.
 
 For SED model, input has a size  [BS, 1 , 320000] i.e., audio file is sampled at the rate of 32KHz for 10 seconds. During validation the duration for sample collection has been kept to 60 seconds. The resulting length has been further broken down into shapes of (1,320000) and adjusted to batch size.
@@ -43,6 +44,7 @@ Backbones which have been used in CNN models are:<br>
 2. resnet34d
 3. tf_efficientnet_b3_ns
 4. tf_efficientnet_b0_ns
+
 All except b0 are trained on 15sec clip. b0 is trained on 20sec clip.
 
 Each model (out of 7) has gone through following stages are:
